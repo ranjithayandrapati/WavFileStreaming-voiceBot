@@ -12,8 +12,8 @@ from livekit import rtc
 from livekit.plugins import silero
 
 # ---------- your config ----------
-INPUT_FILE = Path(r"C:\Users\Dhanaranjitha\Downloads\AUDIO_user_8657862907_1756912432.854027.wav")
-API_URL = "http://35.200.216.143:8000/v1/audio/transcriptions"  # your ASR HTTP endpoint
+INPUT_FILE = Path(r"Here Your Wav file")
+API_URL = HERE YOUR ASR API  # your ASR HTTP endpoint
 FRAME_MS = 20  # 20ms frames work well with Silero VAD
 # ---------------------------------
 
@@ -124,3 +124,4 @@ async def run():
 
 if __name__ == "__main__":
     asyncio.run(run())
+
